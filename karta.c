@@ -3,7 +3,7 @@ void main(){
   printf("\n\n\t FALLOUT \n\n");
     
 float sp1,sp2,sp3,sp4,sp5,sp6,sp7;
-float sd1,sd2,sd3,sd4,sd5,sd6,sd7,sd8;
+float sd1,sd2,sd3,sd4,sd5,sd6,sd7,sd8,sd9,sd10;
 	printf("ST:"); scanf("%f", &sp1);
 	printf("PE:"); scanf("%f", &sp2);
 	printf("EN:"); scanf("%f", &sp3);
@@ -19,6 +19,8 @@ float sd1,sd2,sd3,sd4,sd5,sd6,sd7,sd8;
 	sd6=2*sp3;
 	sd7=2*sp6;
 	sd8=(sp3/3);
+	sd9=3+(sp3/2);
+	sd10=5+(sp5*2);
 	printf("\nHP : %4.0f\n",sd1);
 	printf("AC : %4.0f\n",sp6);
 	printf("AP : %4.0f\n",sd2);
@@ -32,4 +34,6 @@ float sd1,sd2,sd3,sd4,sd5,sd6,sd7,sd8;
 	printf("Seq: %4.0f\n",sd7);
 	printf("HR : %4.0f\n",sd8);
 	printf("Crt: %4.0f\n",sp7);
+	printf("HPL: %4.0f\n",sd9);
+	printf("SP : %4.0f\n",sd10);
 }
